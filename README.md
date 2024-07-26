@@ -17,5 +17,4 @@ This code demonstrates the detection of a fruit object in a video and the predic
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/orange-trajectory-prediction.git
-   cd orange-trajectory-prediction](https://github.com/AlirezaHabibi1377/Object-Trajectory-Prediction-using-Kalman-Filter.git)
+   git clone https://github.com/AlirezaHabibi1377/Object-Trajectory-Prediction-using-Kalman-Filter.git
