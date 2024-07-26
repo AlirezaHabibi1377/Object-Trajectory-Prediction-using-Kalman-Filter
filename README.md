@@ -1,6 +1,6 @@
-# Object-Trajectory-Prediction-using-Kalman-Filter
+# Object Trajectory Prediction using Kalman Filter
 
-This code demonstrates the detection of an fruit object in a video and the prediction of its trajectory using a Kalman filter. The implementation utilizes OpenCV for video processing, and custom modules for object detection and Kalman filtering.
+This code demonstrates the detection of a fruit object in a video and the prediction of its trajectory using a Kalman filter. The implementation utilizes OpenCV for video processing, and custom modules for object detection and Kalman filtering.
 
 ## Features
 - **Orange Object Detection**: Detects the orange object in each video frame.
@@ -17,5 +17,5 @@ This code demonstrates the detection of an fruit object in a video and the predi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/orange-trajectory-prediction.git
-   cd orange-trajectory-prediction
+   git clone [https://github.com/yourusername/orange-trajectory-prediction.git
+   cd orange-trajectory-prediction](https://github.com/AlirezaHabibi1377/Object-Trajectory-Prediction-using-Kalman-Filter.git)
