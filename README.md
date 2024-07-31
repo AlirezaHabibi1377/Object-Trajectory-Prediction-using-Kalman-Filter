@@ -18,3 +18,8 @@ This code demonstrates the detection of a fruit object in a video and the predic
 1. Clone the repository:
    ```bash
    git clone https://github.com/AlirezaHabibi1377/Object-Trajectory-Prediction-using-Kalman-Filter.git
+   ```
+
+## Output
+
+<iframe width="560" height="315" src="fruit.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
