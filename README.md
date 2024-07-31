@@ -22,4 +22,4 @@ This code demonstrates the detection of a fruit object in a video and the predic
 
 ## Output
 
-<iframe width="560" height="315" src="fruit.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](fruit.mp4)]
