@@ -22,4 +22,4 @@ This code demonstrates the detection of a fruit object in a video and the predic
 
 ## Output
 
-[![Watch the video](fruit.mp4)]
+[![Watch the video](fruit.mp4)](fruit.mp4)
