@@ -24,4 +24,4 @@ This code demonstrates the detection of a fruit object in a video and the predic
 
 Please take a look at the *output.mp4* file.
 
-![Output Video](videos/output.mp4)
+![Output Video](output.mp4)
