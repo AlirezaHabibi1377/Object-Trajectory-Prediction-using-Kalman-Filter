@@ -3,13 +3,23 @@ from orange_detector import OrangeDetector
 from kalmanfilter import KalmanFilter
 
 # Open the video file
-cap = cv2.VideoCapture("orange.mp4")
+cap = cv2.VideoCapture("fruit.mp4")
 
 # Initialize the OrangeDetector for detecting oranges
 od = OrangeDetector()
 
 # Initialize the KalmanFilter for predicting the trajectory of the orange
 kf = KalmanFilter()
+
+# Get the video width, height, and frames per second (FPS)
+frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+fps = int(cap.get(cv2.CAP_PROP_FPS))
+
+# Define the codec and create a VideoWriter object to save the output video
+output_filename = "output.avi"
+fourcc = cv2.VideoWriter_fourcc(*'XVID') # 'XVID' is a popular codec
+out = cv2.VideoWriter(output_filename, fourcc, fps, (frame_width, frame_height))
 
 while True:
     # Read a frame from the video
@@ -34,6 +44,9 @@ while True:
     # Draw a circle at the predicted position of the orange
     cv2.circle(frame, (predicted[0], predicted[1]), 20, (255, 0, 0), 4)
 
+    # Write the processed frame to the output video
+    out.write(frame)
+
     # Display the frame with the detected and predicted positions
     cv2.imshow("Frame", frame)
 
@@ -45,4 +58,5 @@ while True:
 
 # Release the video capture object and close all OpenCV windows
 cap.release()
+out.release()
 cv2.destroyAllWindows()
